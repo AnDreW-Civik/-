@@ -18,21 +18,21 @@
 
 
     <form class="forma" name="form">
-        <input placeholder="Введите число" id = "chislo" onchange="calc();">
-        <input placeholder="Введите число" id = "chislo1" onchange="calc();">
+        <label for="chislo"></label><input placeholder="Введите число" id = "chislo">
+        <label for="chislo1"></label><input placeholder="Введите число" id = "chislo1">
     </form>
 
     <div>
-        <span class="output" id="result"</span>
+        <span class="output" id="result"></span>
     </div>
 <div>
-    <button onclick="calc();">*</button>
-    <button onclick="calc1();">-</button>
-    <button onclick="calc2();">+</button>
+    <button onclick="calc();" id="*">*</button>
+    <button onclick="calc1();" id="-">-</button>
+    <button onclick="calc2();" id="+">+</button>
     <button onclick="calc3();">/</button>
     <button onclick="ravno();">=</button>
 </div>
-
+</div>
 
 
 
